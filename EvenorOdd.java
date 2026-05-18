@@ -6,9 +6,11 @@ public class EvenorOdd{
         System.out.println();
         System.out.println("Checking the Numbers ");
         System.out.println();
+        
         Arrays.sort(Arr2);
+        
         for(int X : Arr2){
-            // Arrays.sort(Arr2);
+            
 
             
             if(X % 2 == 0){
@@ -18,6 +20,7 @@ public class EvenorOdd{
             }
         }
     }
+    
     public static void main(String[] args) {
 
         Scanner sc = new Scanner(System.in);
